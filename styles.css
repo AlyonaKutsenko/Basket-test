@@ -1,0 +1,57 @@
+.wrapper {
+	padding: 20px 50px;
+	margin: 0 auto;
+	max-width: 1400px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+}
+.card {
+	width: 150px;
+	text-align: center;
+}
+img {
+	max-height: 70px;
+}
+h5 {
+	display: flex;
+	justify-content: flex-end;
+}
+.col {
+	width: 25%;
+	width: 25%;
+	display: flex;
+	align-items: center;
+}
+.col-total {
+	display: flex;
+	justify-content: flex-end;
+}
+.prod {
+	display: flex;
+	align-items: center;
+}
+.basket-total-box {
+	padding: 40px 0;
+}
+.btn {
+	margin-right: 20px;
+}
+.remove {
+	cursor: pointer;
+	width: 21px;
+	height: 21px;
+	position: relative;
+}
+.remove::before {
+	content: "X";
+	position: absolute;
+	top: 1px;
+	left: 4px;
+}
+.plus, .minus {
+	cursor: pointer;
+	font-size: 20px;
+	margin: 0 5px;
+}
